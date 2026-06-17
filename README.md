@@ -20,9 +20,6 @@ This project presents a clean book club homepage with a hero section, featured b
 Top half of the completed site:
 
 ![Screenshot of the top half of the site](assets/SS1.png)
-
-Bottom half of the completed site:
-
 ![Screenshot of the bottom half of the site](assets/SS2.png)
 
 ## Attribution
