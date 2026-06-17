@@ -57,6 +57,7 @@ body {
 .heroText p {
     margin-top: 10px;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .heroImage {
@@ -69,7 +70,6 @@ body {
     padding: 15px 30px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -81,6 +81,11 @@ body {
     align-items: center;
     padding-block: 10px;
     gap: 30px;
+}
+
+.content h2 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .images {
@@ -96,7 +101,10 @@ body {
     display: flex;
     flex-direction: column;
     max-height:fit-content;
+    justify-content: center;
+    font-style: italic;
 }
+
 
 .quotes {
     display: flex;
@@ -123,4 +131,15 @@ body {
     flex: 1;
     display: flex;
    padding: 20px;
+}
+
+.signup-content {
+    background-color: #546B41;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 350px;
 }
