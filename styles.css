@@ -22,7 +22,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding-inline: 100px;
+    padding-block: 10px;
 }
 
 .navLinks {
@@ -34,13 +35,16 @@ body {
 
 .navLinks li a {
     text-decoration: none;
+    color: black;
 
 }
 
 .heroSection {
     display: flex;
     flex-direction: row;
-    padding : 10px;
+    padding-inline: 100px;
+    padding-block: 50px;
+    
 }
 
 .heroText {
@@ -50,7 +54,24 @@ body {
     align-self:flex-start;
 }
 
+.heroText p {
+    margin-top: 10px;
+    text-align: justify;
+}
 
+.heroImage {
+    padding-left: 100px;
+}
+
+.hero-button {
+    background-color: #FFF7CD;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
 
 .content {
     background-color: #FFF7CD;
@@ -64,8 +85,9 @@ body {
     display:flex;
     flex-direction: row;
     gap: 20px;
-    align-items: center;
-    padding: 20px;
+    align-items:flex-end;
+    padding-inline-start: 100px;
+   
 }
 
 .images div {
