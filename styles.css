@@ -79,6 +79,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-block: 10px;
+    gap: 30px;
 }
 
 .images {
@@ -101,6 +103,19 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+.quotes p {
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+    max-width: 800px;
+}
+
+.quotes cite {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 
